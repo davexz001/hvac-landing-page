@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>HVAC Services</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- HERO SECTION -->
+  <section class="hero">
+    <div class="container">
+      <h1>Fast & Reliable HVAC Services</h1>
+      <p>Heating, Cooling & Repairs for Homes and Businesses</p>
+      <a href="#contact" class="btn">Get Free Quote</a>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="services">
+    <div class="container">
+      <h2>Our Services</h2>
+
+      <div class="grid">
+        <div class="card">AC Repair</div>
+        <div class="card">Installation</div>
+        <div class="card">Maintenance</div>
+        <div class="card">Emergency Service</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <h2>Request Service</h2>
+
+      <form id="leadForm">
+        <input type="text" id="name" placeholder="Your Name" required />
+        <input type="tel" id="phone" placeholder="Phone Number" required />
+        <textarea id="message" placeholder="Describe your issue"></textarea>
+
+        <button type="submit">Submit Request</button>
+      </form>
+
+      <p id="status"></p>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
